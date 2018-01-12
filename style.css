@@ -1,14 +1,32 @@
 * {
   font-family: Roboto, Arial, sans-serif;
 }
+
+h1 {
+  position: center;
+  font-style: italic;
+}
 h1, p {
   text-align: center;
 }
 p {
   font-size: 16px;
 }
+body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.page {
+  background-color: #e9d9f9;
+  border: 5px solid #984be5;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+} 
 img {
-  border-radius: 8px;
+  border-radius: 15px;
   display: block;
   margin: auto;
   height: auto;
